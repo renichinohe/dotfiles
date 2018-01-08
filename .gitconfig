@@ -1,0 +1,7 @@
+[alias]
+    graph = log --graph --date='format:%Y-%m-%d %T' --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit
+    st = status -sb
+    cm = commit
+    diffw = diff --word-diff
+    sp = stash pop
+    ss = stash save
